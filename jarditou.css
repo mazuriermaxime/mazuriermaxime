@@ -1,0 +1,56 @@
+    .parent {
+        color: blanchedalmond;
+        text-align: left;
+        padding: 20px;
+        background-color: black;
+    }
+    
+    a {
+        color: blanchedalmond;
+    }
+    
+    .jardin {
+        width: 250px;
+        float: right;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    #logo {
+        float: left;
+    }
+    
+    #header {
+        height: 70px;
+    }
+    
+    #col {
+        float: right;
+        background-color: silver;
+        height: 415px;
+        width: 300px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    html {
+        font-size: 100%;
+    }
+    
+    @media handheld screen and (max-width: 576px) {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    
+    @media handheld screen and (max-width: 768px) {
+        h1 {
+            font-size: 40px;
+        }
+        .colonne {
+            display: none;
+        }
+    }
