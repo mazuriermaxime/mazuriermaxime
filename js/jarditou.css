@@ -1,0 +1,78 @@
+.jardin {
+    width: 250px;
+    float: right;
+    text-align: center;
+    font-size: 30px;
+}
+
+#logo {
+    float: left;
+}
+
+#header {
+    height: 70px;
+}
+
+.colonne {
+    float: right;
+    background-color: silver;
+    height: 750px;
+    width: 400px;
+}
+
+.colonne1 {
+    float: right;
+    background-color: silver;
+    height: 350px;
+    width: 350px;
+}
+
+#col {
+    float: right;
+    background-color: silver;
+    height: 400px;
+    width: 350px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    font-size: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    .colonne1 {
+        display: none !important;
+    }
+    a {
+        display: block;
+    }
+    .colonne {
+        display: none;
+    }
+}
+
+
+/*css page index.html*/
+
+.parent {
+    text-align: left;
+    padding: 20px;
+    background-color: black;
+}
+
+a {
+    color: white;
+}
